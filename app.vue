@@ -1,14 +1,33 @@
-<template>
-  <div>
-    <h1>11</h1>
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<script setup lang="ts">
+const route = useRoute()
+useHead({
+  title: 'My App',
+  meta: [
+    { name: 'description', content: 'My amazing site.' }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+})
 
-  <div class="p-4">
-    <button class="btn">Hello daisyUI</button>
-  </div>
-  </div>
+</script>
+
+<template>
+  <NuxtLayout>
+ 
+    <NuxtPage />
+    
+  </NuxtLayout>
 </template>
 
-<script></script>
+<style>
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.4s;
+}
+.layout-enter-from,
+.layout-leave-to {
+  filter: grayscale(1);
+}
+</style>
