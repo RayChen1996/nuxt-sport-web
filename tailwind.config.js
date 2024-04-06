@@ -12,6 +12,9 @@ export default {
   ],
   css: ["/assets/css/main.css"],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {},
   },
   plugins: [require("daisyui")],

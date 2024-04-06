@@ -1,23 +1,18 @@
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute();
 useHead({
-  title: 'My App',
-  meta: [
-    { name: 'description', content: 'My amazing site.' }
-  ],
+  title: "運動揪團網",
+  meta: [{ name: "", content: "" }],
   bodyAttrs: {
-    class: 'test'
+    class: "test",
   },
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
-})
-
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 </script>
 
 <template>
   <NuxtLayout>
- 
     <NuxtPage />
-    
   </NuxtLayout>
 </template>
 

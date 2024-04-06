@@ -7,6 +7,6 @@
 </template>
 
 <style scoped>
-div { 
+div {
 }
 </style>

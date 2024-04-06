@@ -1,10 +1,3 @@
-
 <template>
-  <div class="  h-screen ">
-    <Carousel />
-    <Sidebar />
-
-
-  </div>
+  <div class="h-screen"></div>
 </template>
- 

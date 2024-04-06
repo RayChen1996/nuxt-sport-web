@@ -1,11 +1,9 @@
 <script setup lang="ts">
-definePageMeta({
-  layout: 'orange'
-})
+definePageMeta({});
 </script>
 
 <template>
   <div>
-    <h1>About page</h1> 
+    <h1>About page</h1>
   </div>
 </template>
